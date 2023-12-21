@@ -123,6 +123,7 @@ namespace CapaPresentacion
             this.btningresar.TabIndex = 7;
             this.btningresar.Text = "Ingresar";
             this.btningresar.UseVisualStyleBackColor = false;
+            this.btningresar.Click += new System.EventHandler(this.btningresar_Click);
             // 
             // btncancelar
             // 
