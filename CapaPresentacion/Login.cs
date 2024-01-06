@@ -37,6 +37,8 @@ namespace CapaPresentacion
         //cuando se cierra el formulario de inicio
         private void frm_closing(Object sender, FormClosingEventArgs e)
         {
+            txtdocumento.Text = "";
+            txtclave.Text = "";
             this.Show();    /* Mostramos el formulario actual (Login)*/
 
         }
